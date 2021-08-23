@@ -1,5 +1,10 @@
 h1 {
     background-color: lightYellow;
+    width: 50%;
+}
+
+table {
+    border: dotted 1px lightgrey;
 }
 
 body {background: lightblue;}
