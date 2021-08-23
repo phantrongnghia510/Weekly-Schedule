@@ -3,11 +3,24 @@ h1 {
     width: 50%;
 }
 
-table {
-    border: dotted 1px lightgrey;
+table, th, td, tr {
+    border: dashed 1px blue;
+    border-collapse: collapse;
 }
 
-body {background: lightblue;}
+th, td, tr {
+    width: 12%;
+    height: 5%;
+}
+
+table th {
+    color: Green;
+}
+
+html {
+    background: no-repeat linear-gradient(lightYellow, lightBlue, lightGreen);
+    min-height: 100%;
+}
 
 /* leaf animations */
 
